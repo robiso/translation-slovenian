@@ -23,7 +23,7 @@ CURRENT PAGE
     ">Page description",">Opis"
     "> Delete page","> Izbriši stran"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Izbris $1?')"
-    "data-confirm=""Delete (.*?)\?""","data-confirm=""Izbris $1?"""
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""Izbriši $1?"""
 
 
 MENU
@@ -48,7 +48,7 @@ THEMES AND PLUGINS
     "title=""Remove this repository from the list""","title=""Odstrani ta repozitorij s seznama"""
     "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Odstrani $1? Vse, kar je bilo nameščeno iz njega, ostane."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Izbris $1?')"
-    "data-confirm=""Remove (.*?)\?""","data-confirm=""Izbris $1?"""
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Izbriši $1?"""
     ">Active",">V uporabi"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktiviraj $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktiviraj $1?"""
@@ -145,7 +145,7 @@ ALERTS
     "^Wrong password\.$","Napačno geslo."
     "^Cannot get content from url \(HTTP (\d+)\)\.$","Vsebine z URL-ja ni bilo mogoče pridobiti (HTTP $1)."
     "^Cannot get content from url\.$","Vsebine z URL-ja ni bilo mogoče pridobiti."
-    "The downloaded file was not a complete, newer WonderCMS core; nothing was changed\. Try again in a few minutes\.","Prenesena datoteka ni bila celotno, novejše jedro WonderCMS; nič ni bilo spremenjeno. Poskusi znova čez nekaj minut."
+    "The downloaded file was not a complete, newer WonderCMS core; nothing was changed\. Try again in a few minutes\.","Prenesena datoteka ni vsebovala celotnega, novejšega jedra WonderCMS; nič ni bilo spremenjeno. Poskusi znova čez nekaj minut."
     "Could not write the new index\.php\. Check the free disk space and the permissions of index\.php and its folder, then try again\.","Nove datoteke index.php ni bilo mogoče zapisati. Preveri prosti prostor na disku in dovoljenja za index.php in njeno mapo, nato poskusi znova."
     "Theme <b>([^<]*)<\/b> is not installed\. Showing the Sky theme instead\.","Tema <b>$1</b> ni nameščena. Namesto nje je prikazana tema Sky."
     "Theme <b>([^<]*)<\/b> failed to load: ","Teme <b>$1</b> ni bilo mogoče naložiti: "
