@@ -22,6 +22,7 @@ CURRENT PAGE
     ">Page description",">Opis"
     "> Delete page","> Izbriši stran"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Izbris $1?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""Izbris $1?"""
 
 
 MENU
@@ -39,8 +40,10 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> Preveri posodobitve"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Izbris $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Izbris $1?"""
     ">Active",">V uporabi"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktiviraj $1?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktiviraj $1?"""
     "> Activate","> Aktiviraj"
     "> More info","> Več informacij"
     "> Install","> Namesti"
