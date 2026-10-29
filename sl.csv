@@ -5,13 +5,14 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Nastavitve"
+    "return confirm\('Log out\?'\)","return confirm('Odjava?')"
 
 
 MENU ITEMS
     ">Current page",">Trenutna stran"
     ">Menu",">Meni"
     ">Files",">Datoteke"
-    ">Themes",">Teme
+    ">Themes",">Teme"
     ">Plugins",">Vtičniki"
     ">Security",">Varnost"
 
@@ -29,6 +30,10 @@ MENU
     ">Website title","> Naslov strani"
     ">Page to display on homepage","> Stran za prikaz na domači strani"
     ">visit",">obišči"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Nastavi stran kot zasebno (vidiš jo samo ti, ko si prijavljen)"""
+    "title=""Make page public""","title=""Nastavi stran kot javno"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> zasebna</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> javna</a>"
     "> Add page","> Dodaj stran"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Preveri posodobitve"
+    "title=""Remove this repository from the list""","title=""Odstrani to odlagališče s seznama"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Odstrani $1? Vse, kar je bilo nameščeno iz njega, ostane."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Izbris $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Izbris $1?"""
     ">Active",">V uporabi"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktiviraj $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Aktiviraj $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Onemogoči $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""To je vtičnik vrste $1. Namestitev $2 bo onemogočila $3. Želiš nadaljevati?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""To je vtičnik vrste $1. Posodobitev $2 ga pusti omogočenega in onemogoči $3. Želiš nadaljevati?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""To je vtičnik vrste $1. Omogočanje $2 bo onemogočilo $3. Želiš nadaljevati?"""
     "> Activate","> Aktiviraj"
     "> More info","> Več informacij"
     "> Install","> Namesti"
     ">Installed version:",">Nameščena verzija:"
     ">Custom repository",">Odlagališče po meri (repository)"
     "Enter URL to custom repository","Vnesi URL za odlagališče"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Dodajanje neznanih modulov je lahko ZELO nevarno, ali res želiš nadaljevati?')"
     "> Add", "> Dodaj"
     "> Read more about custom repositories",">Preberi več o odlagališčih po meri"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">HTTPS preusmeritev, 30-dnevno keširanje, iframi dovoljeni samo iz istega izvora."
     ">ON \(warning: may break your website\)",">Vklop (lahko zlomi vaše spletno mesto)"
     ">OFF \(reset htaccess to default\)",">Izklop (resetiraj dodatno varnost)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Si prepričan? Če SSL ni pravilno nastavljen, lahko to pokvari tvojo spletno stran.')"
     "> Read more before enabling","> Preberi več pred vklopom"
     ">Backup","> Varnostna kopija strani"
     "> Backup website","> Varnostna kopija"
